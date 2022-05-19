@@ -17,19 +17,13 @@
     <body>
         <main>
             <style> 
-                           .scrolling-wrapper-flexbox {
-                              display: flex;
-                              flex-wrap: nowrap;
-                              overflow-x: auto;
-
-                              .card {
-                                flex: 0 0 auto;
-                              }
-                            }
+                       .scrolling-wrapper {
+                      -webkit-overflow-scrolling: touch;
+                    }
 
                                   
             </style>
-            <section  id="hero" class=".scrolling-wrapper-flexbox">
+            <section  id="hero" class=".scrolling-wrapper">
              
                                   <div class="card"><h2>Card</h2></div>
                                   <div class="card"><h2>Card</h2></div>
